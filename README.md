@@ -93,5 +93,6 @@ Department of B.Tech Artificial Intelligence and Data Science
 🎓 AICTE Internship Project
 
 📜 License
+
 This project is open-source and available under the MIT License.
 
