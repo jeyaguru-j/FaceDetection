@@ -50,49 +50,49 @@ Real-time face detection is a key component in various AI applications such as s
    Press a to close the webcam window.
 
 🔍 How it Works
--Loads Haar cascade XML file.
+   -Loads Haar cascade XML file.
 
--Captures video from the default webcam.
+   -Captures video from the default webcam.
 
--Converts each frame to grayscale.
+   -Converts each frame to grayscale.
 
--Detects faces using detectMultiScale().
+   -Detects faces using detectMultiScale().
 
--Draws green rectangles around detected faces.
+   -Draws green rectangles around detected faces.
 
     ```python
     faces = face_cap.detectMultiScale(gray_frame, scaleFactor=1.1, minNeighbors=5)
 🖼️ Result
 
-  ✅ Faces detected and outlined in real-time.
+   ✅ Faces detected and outlined in real-time.
 
-  ✅ Smooth performance on standard hardware.
+   ✅ Smooth performance on standard hardware.
 
 ![Screenshot 2025-06-06 225132](https://github.com/user-attachments/assets/6f2f49c6-543e-40b8-837b-9039e9c0d908)
 
 
 🚀 Future Scope
--Add face recognition to identify individuals.
+   -Add face recognition to identify individuals.
 
--Implement emotion or mask detection.
+   -Implement emotion or mask detection.
 
--Deploy to Raspberry Pi or Jetson Nano for edge computing.
+   -Deploy to Raspberry Pi or Jetson Nano for edge computing.
 
--Upgrade to deep learning-based detectors (e.g., DNN or MTCNN).
+   -Upgrade to deep learning-based detectors (e.g., DNN or MTCNN).
 
--Build a GUI for user-friendly interaction.
+   -Build a GUI for user-friendly interaction.
 
 🙋 Author
 
-Jeyaguru J.
+   Jeyaguru J.
 
-Department of B.Tech Artificial Intelligence and Data Science
+   Department of B.Tech Artificial Intelligence and Data Science
 
-📧 jeyaguru1507@gmail.com
+   📧 jeyaguru1507@gmail.com
 
-🎓 AICTE Internship Project
+   🎓 AICTE Internship Project
 
 📜 License
 
-This project is open-source and available under the MIT License.
+   This project is open-source and available under the MIT License.
 
