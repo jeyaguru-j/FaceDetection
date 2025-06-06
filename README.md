@@ -63,6 +63,7 @@ Real-time face detection is a key component in various AI applications such as s
     ```python
     faces = face_cap.detectMultiScale(gray_frame, scaleFactor=1.1, minNeighbors=5)
 🖼️ Result
+
   ✅ Faces detected and outlined in real-time.
 
   ✅ Smooth performance on standard hardware.
@@ -82,9 +83,13 @@ Real-time face detection is a key component in various AI applications such as s
 -Build a GUI for user-friendly interaction.
 
 🙋 Author
+
 Jeyaguru J.
+
 Department of B.Tech Artificial Intelligence and Data Science
+
 📧 jeyaguru1507@gmail.com
+
 🎓 AICTE Internship Project
 
 📜 License
